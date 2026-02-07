@@ -18,7 +18,7 @@ const Index = () => {
       
       {/* How It Works Video Section */}
       <VideoSection
-        videoSrc="/IMG_8164.MOV"
+        videoSrc="/IMG_8164.mp4"
       />
       
       <ScheduleSection />
