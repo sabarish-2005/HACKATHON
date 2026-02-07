@@ -18,8 +18,7 @@ const Index = () => {
       
       {/* How It Works Video Section */}
       <VideoSection
-        title="How the Hackathon Works"
-        videoPlaceholder="Hackathon Process Reel Video"
+        videoSrc="/IMG_8164.MOV"
       />
       
       <ScheduleSection />
