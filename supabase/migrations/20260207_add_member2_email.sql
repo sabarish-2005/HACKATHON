@@ -1,0 +1,2 @@
+ALTER TABLE public.registrations
+ADD COLUMN IF NOT EXISTS member2_email VARCHAR(255) NOT NULL DEFAULT '';
