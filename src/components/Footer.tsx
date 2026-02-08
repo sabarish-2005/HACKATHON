@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import { Cpu, Heart } from "lucide-react";
+import { Cpu } from "lucide-react";
+import sabarishProfile from "@/assets/sabarish.jpg";
 
 const Footer = () => {
   return (
@@ -24,9 +25,19 @@ const Footer = () => {
           </div>
 
           {/* Copyright */}
-          <p className="text-sm text-muted-foreground flex items-center gap-1">
-            Website created by Sabarish V, III B.Sc. AIML
-          </p>
+          <div className="flex items-center gap-3 text-sm text-muted-foreground">
+            <div className="relative h-8 w-8">
+              <div className="absolute inset-0 rounded-full bg-purple-700/40 blur-md" />
+              <img
+                src={sabarishProfile}
+                alt="Sabarish V"
+                className="relative h-full w-full rounded-full object-cover border border-purple-300/30"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <span>Website created by Sabarish V, III B.Sc. AIML</span>
+          </div>
         </div>
       </div>
     </footer>
