@@ -25,7 +25,7 @@ const Footer = () => {
 
           {/* Copyright */}
           <p className="text-sm text-muted-foreground flex items-center gap-1">
-            Made with <Heart className="w-4 h-4 text-destructive" /> by Department of AIML
+            Website created by Sabarish V, III B.Sc. AIML
           </p>
         </div>
       </div>
