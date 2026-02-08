@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { ArrowRight, Sparkles, Brain, Code } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-ai-robot.jpg";
+import sabarishProfile from "@/assets/sabarish.jpg";
 
 const HeroSection = () => {
   const isSmallScreen =
@@ -68,6 +69,17 @@ const HeroSection = () => {
           transition={{ duration: 0.8 }}
           className="max-w-4xl mx-auto"
         >
+          <div className="relative mx-auto mb-6 h-28 w-28 sm:h-32 sm:w-32">
+            <div className="absolute inset-0 rounded-full bg-purple-700/40 blur-xl" />
+            <div className="absolute inset-0 rounded-full bg-fuchsia-500/20 blur-2xl" />
+            <img
+              src={sabarishProfile}
+              alt="Sabarish V"
+              className="relative h-full w-full rounded-full object-cover border border-purple-300/30 shadow-[0_0_30px_rgba(168,85,247,0.45)]"
+              loading="eager"
+              decoding="async"
+            />
+          </div>
           {/* Badge */}
           {/* Badge */}
           <motion.div
